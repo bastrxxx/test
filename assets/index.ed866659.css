@@ -409,8 +409,8 @@ button.swiper-pagination-bullet {
 
 :root {
     --carousel-slider-max-width: 1200px;
-    --carousel-slider-width: 640px;
-    --carousel-slider-height: 360px;
+    --carousel-slider-width: 668px;
+    --carousel-slider-height: 376px;
     --carousel-slider-navigation-color: #fff;
     --carousel-slider-pagination-color: #fff
 }
@@ -470,8 +470,8 @@ body {
 
 .carousel-slider {
     --carousel-slider-max-width: 1280px;
-    --carousel-slider-width: 743px;
-    --carousel-slider-height: 418px;
+    --carousel-slider-width: 668px;
+    --carousel-slider-height: 376px;
     --carousel-slider-navigation-color: #fff;
     --carousel-slider-pagination-color: #fff
 }
