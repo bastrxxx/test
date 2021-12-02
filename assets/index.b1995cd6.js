@@ -55,10 +55,10 @@ import {
                     const o = e.slides[r],
                         s = e.slides[r].progress,
                         i = Math.abs(s);
-                    let n = 1;
+                    let n = 1.3;
                     i > 1 && (n = .3 * (i - 1) + 1);
                     const l = o.querySelectorAll(".carousel-slider-animate-opacity"),
-                        a = s * n * 50 + "%",
+                        a = s * n * 55 + "%",
                         c = 1 - .2 * i,
                         d = t - Math.abs(Math.round(s));
                     o.style.transform = `translateX(${a}) scale(${c})`, o.style.zIndex = d, o.style.opacity = i > 3 ? 0 : 1, l.forEach((e => {
