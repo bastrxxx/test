@@ -59,7 +59,7 @@ import {
                     i > 1 && (n = .3 * (i - 1) + 1);
                     const l = o.querySelectorAll(".carousel-slider-animate-opacity"),
                         a = s * n * 60 + "%",
-                        c = 1 - .5 * i,
+                        c = 1 - .3 * i,
                         d = t - Math.abs(Math.round(s));
                     o.style.transform = `translateX(${a}) scale(${c})`, o.style.zIndex = d, o.style.opacity = i > 3 ? 0 : 1, l.forEach((e => {
                         e.style.opacity = 1 - i / 3
